@@ -25,5 +25,9 @@
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
   },
+  "include": [
+    "src/**/*.ts",
+    "typings/*.d.ts"
+  ],
 
 }

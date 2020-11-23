@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./table-actions.component.scss']
 })
 export class TableActionsComponent implements OnInit {
+  checked = false;
 
   constructor() { }
 

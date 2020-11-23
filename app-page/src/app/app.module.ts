@@ -11,6 +11,7 @@ import { BuysComponent } from './components/buys/buys.component';
 import { TitleFinancialComponent } from './components/title-financial/title-financial.component';
 import { OportunitsComponent } from './components/oportunits/oportunits.component';
 import { AboutUserComponent } from './components/about-user/about-user.component';
+import { MaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AboutUserComponent } from './components/about-user/about-user.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
