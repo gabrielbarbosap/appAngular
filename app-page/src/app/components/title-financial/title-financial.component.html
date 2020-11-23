@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="col-sm-12">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Títulos Financeiros</h5>
+        <div class="div-section">
+          <div class="span-number">{{buy.length}}</div>
+          <div class="div-info">
+            <span>Pagos</span><br>
+            <span>R$ {{buildTotalBuy()}}</span>
+          </div>
+        </div>
+
+        <div class="div-section">
+          <div class="span-number">{{dead.length}}</div>
+          <div class="div-info">
+            <span>Vencidos</span><br>
+            <span>R$ {{buildTotalDead()}}</span>
+          </div>
+        </div>
+
+        <div class="div-section">
+          <div class="span-number">{{open.length}}</div>
+          <div class="div-info">
+            <span>A Vencer</span><br>
+            <span>R$ {{buildTotalOpen()}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

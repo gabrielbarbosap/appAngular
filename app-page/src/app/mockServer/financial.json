@@ -1,0 +1,25 @@
+[{
+    "status": "Vencido",
+    "value": 2000
+  },
+  {
+    "status": "Vencido",
+    "value": 1000
+  },
+  {
+    "status": "Pago",
+    "value": 3000
+  },
+  {
+    "status": "Pago",
+    "value": 5000
+  },
+  {
+    "status": "Aberto",
+    "value": 6000
+  },
+  {
+    "status": "Pago",
+    "value": 2000
+  }
+]

@@ -1,0 +1,29 @@
+[{
+    "value": 15000,
+    "status": "Ganha"
+  },
+  {
+    "value": 5000,
+    "status": "Ganha"
+  },
+  {
+    "value": 3000,
+    "status": "Ganha"
+  },
+  {
+    "value": 2000,
+    "status": "Perdida"
+  },
+  {
+    "value": 4000,
+    "status": "Aberta"
+  },
+  {
+    "value": 5000,
+    "status": "Descartadas"
+  },
+  {
+    "value": 52000,
+    "status": "Descartadas"
+  }
+]
