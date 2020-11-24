@@ -27,3 +27,7 @@ No projeto nao existe requisoções HTTP pois foi fieto com json mocado mas o co
 O projeto foi feito em 12 horas ineterruptas, não tive tempo suficiente para ajustar a parte mobile, entao ele nao ta 100% responsivo. Acredito que com mais 6 horas de trabalho eu deixaria ele 100% responsivo. 
 
 Escolhi o Angular pois é o que tenho mais familiaridade, trabalho com ES e consigo me adpatar bem para qualquer freamwork Java Script.
+
+## Funcionalidades
+
+A tabela pode ser usada como filtro de atividades, basta clicar no número.
