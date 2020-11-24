@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './components/index/index.component';
 import { TableActionsComponent } from './components/table-actions/table-actions.component';
-import { MapComponent } from './components/map/map.component';
 import { CreditComponent } from './components/credit/credit.component';
 import { BuysComponent } from './components/buys/buys.component';
 import { TitleFinancialComponent } from './components/title-financial/title-financial.component';
@@ -14,18 +13,21 @@ import { AboutUserComponent } from './components/about-user/about-user.component
 import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './components/header/header.component';
+import { GraphComponent } from './components/graph/graph.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
     TableActionsComponent,
-    MapComponent,
+    GraphComponent,
     CreditComponent,
     BuysComponent,
     TitleFinancialComponent,
     OportunitsComponent,
-    AboutUserComponent
+    AboutUserComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

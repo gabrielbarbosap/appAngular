@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import Chart from 'chart.js';
 import mock from '../../mockServer/graph.json';
 @Component({
-  selector: 'app-map',
-  templateUrl: './map.component.html',
-  styleUrls: ['./map.component.scss']
+  selector: 'app-graph',
+  templateUrl: './graph.component.html',
+  styleUrls: ['./graph.component.scss']
 })
-export class MapComponent implements OnInit {
+export class GraphComponent implements OnInit {
   grph = mock;
   proc;
   constructor() { }
