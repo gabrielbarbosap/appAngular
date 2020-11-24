@@ -1,36 +1,36 @@
 <div class="row">
   <div class="col-sm-12">
-    <div class="card">
+    <div class="card card-r">
       <div class="card-body">
         <h5 class="card-title">Oportunidades ({{oportunits.length}})</h5>
         <div class="div-section">
-          <div class="span-number">{{won.length}}</div>
+          <div class="div-number-Ganha">{{won.length}}</div>
           <div class="div-info">
-            <span>Ganha</span><br>
+            <span class="bolder">Ganha</span><br>
             <span>R$ {{buildTotalWon()}}</span>
           </div>
         </div>
 
         <div class="div-section">
-          <div class="span-number">{{loose.length}}</div>
+          <div class="div-number-Perdida">{{loose.length}}</div>
           <div class="div-info">
-            <span>Perdida</span><br>
+            <span class="bolder">Perdida</span><br>
             <span>R$ {{buildTotalLoose()}}</span>
           </div>
         </div>
 
         <div class="div-section">
-          <div class="span-number">{{open.length}}</div>
+          <div class="div-number-aberta">{{open.length}}</div>
           <div class="div-info">
-            <span>Abertas</span><br>
+            <span class="bolder">Abertas</span><br>
             <span>R$ {{buildTotalOpen()}}</span>
           </div>
         </div>
 
         <div class="div-section">
-          <div class="span-number">{{desc.length}}</div>
+          <div class="div-number-outras">{{desc.length}}</div>
           <div class="div-info">
-            <span>Outras</span><br>
+            <span class="bolder">Outras</span><br>
             <span>R$ {{buildTotalDesc()}}</span>
           </div>
         </div>

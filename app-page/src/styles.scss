@@ -1,9 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
 .card {
-    min-width: 18rem;
     margin: 0.4rem;
-    max-width: 18rem;
+}
+
+.card-h {
+    height: 11em;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.card-r {
+    height: 12.5rem;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -4,25 +4,25 @@
       <div class="card-body">
         <h5 class="card-title">Títulos Financeiros</h5>
         <div class="div-section">
-          <div class="span-number">{{buy.length}}</div>
+          <div class="span-number div-number-pago">{{buy.length}}</div>
           <div class="div-info">
-            <span>Pagos</span><br>
+            <span class="bolder">Pagos</span><br>
             <span>R$ {{buildTotalBuy()}}</span>
           </div>
         </div>
 
         <div class="div-section">
-          <div class="span-number">{{dead.length}}</div>
+          <div class="span-number div-number-vencido">{{dead.length}}</div>
           <div class="div-info">
-            <span>Vencidos</span><br>
+            <span class="bolder">Vencidos</span><br>
             <span>R$ {{buildTotalDead()}}</span>
           </div>
         </div>
 
         <div class="div-section">
-          <div class="span-number">{{open.length}}</div>
+          <div class="span-number div-number-vencer" >{{open.length}}</div>
           <div class="div-info">
-            <span>A Vencer</span><br>
+            <span class="bolder">A Vencer</span><br>
             <span>R$ {{buildTotalOpen()}}</span>
           </div>
         </div>

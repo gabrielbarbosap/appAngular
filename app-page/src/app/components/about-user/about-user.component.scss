@@ -1,3 +1,27 @@
 img {
     width: 4rem;
 }
+
+.status-true {
+    display: block;
+    background-color: #befbae;
+    padding: 0.3rem;
+    width: 22%;
+    border-radius: 5px;
+}
+
+i {
+    vertical-align: middle;
+}
+
+.status-false {
+    display: block;
+    background-color: red;
+    padding: 0.3rem;
+    width: 22%;
+    border-radius: 5px;
+}
+
+span { 
+    display: block;
+}

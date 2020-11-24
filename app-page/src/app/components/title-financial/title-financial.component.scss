@@ -1,16 +1,47 @@
-.span-number {
-    background: red;
-    padding: 0.8rem;
-    margin-top: 1rem;
-    margin-right: 0.5rem;
-    width: 10%;
-    display: inline-block;
-    font-size: 1rem;
-    border-radius: 10px;
-}
+
 
 
 .div-info {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.t-color {
+  color: white;
+}
+
+.div-number-vencido {
+  background: red;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  color: white;
+  margin-right: 0.5rem;
+  width: 10%;
+  display: inline-block;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+.div-number-pago {
+  background: yellow;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  color: white;
+  margin-right: 0.5rem;
+  width: 10%;
+  display: inline-block;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+.div-number-vencer {
+  background: green;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  color: white;
+  margin-right: 0.5rem;
+  width: 10%;
+  display: inline-block;
+  font-size: 1.5rem;
+  border-radius: 10px;
 }

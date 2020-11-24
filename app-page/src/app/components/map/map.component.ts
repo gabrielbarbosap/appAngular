@@ -1,31 +1,36 @@
 import { Component, OnInit } from '@angular/core';
 import Chart from 'chart.js';
-
+import mock from '../../mockServer/graph.json';
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements OnInit {
-
+  grph = mock;
+  proc;
   constructor() { }
 
   ngOnInit() {
-    const ctx = document.getElementById('myChart');
-    const myChart = new Chart(ctx, {
+    const allAtr = this.grph.filter(res => res.status === 'Atraso').length;
+    const allConc = this.grph.filter(res => res.status === 'Concluida').length;
+    const allProg = this.grph.filter(res => res.status === 'Andamento').length;
+    const allPrev = this.grph.filter(res => res.status === 'Prevista').length;
+
+    if (allAtr > allConc) {
+      this.proc = 'Procastinando';
+    } else {
+      this.proc = 'Bom';
+    }
+
+    const myChart = new Chart('myChart', {
       type: 'pie',
       data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ['Atraso', 'Prevista', 'Concluida', 'Em Andamento'],
         datasets: [{
-          label: '# of Votes',
-          data: [12, 19, 3, 5, 2, 3],
+          data: [allAtr, allPrev, allConc, allProg],
           backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)',
-            'rgba(153, 102, 255, 0.2)',
-            'rgba(255, 159, 64, 0.2)'
+            'red', '#dec757', 'green', 'blue'
           ],
           borderColor: [
             'rgba(255, 99, 132, 1)',
@@ -49,7 +54,5 @@ export class MapComponent implements OnInit {
       }
     });
   }
-
-
 
 }

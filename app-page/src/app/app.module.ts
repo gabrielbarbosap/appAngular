@@ -12,6 +12,8 @@ import { TitleFinancialComponent } from './components/title-financial/title-fina
 import { OportunitsComponent } from './components/oportunits/oportunits.component';
 import { AboutUserComponent } from './components/about-user/about-user.component';
 import { MaterialModule } from './material.module';
+import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { MaterialModule } from './material.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    BrowserAnimationsModule,
     MaterialModule,
   ],
   providers: [],

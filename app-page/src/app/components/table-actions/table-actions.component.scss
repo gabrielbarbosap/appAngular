@@ -1,0 +1,89 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .span-all-Conc {
+    background-color: green;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.3rem;
+    cursor: pointer;
+  }
+
+  .span-all-Prog {
+    background-color: blue;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.3rem;
+    cursor: pointer;
+
+  }
+
+  .span-all-Atr {
+    background-color: red;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.3rem;
+    cursor: pointer;
+
+  }
+
+  .span-all-Prev {
+    background-color: #dec757;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.3rem;
+    cursor: pointer;
+
+  }
+
+  .span-all-total {
+    background-color:gray;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0.3rem;
+    cursor: pointer;
+
+  }
+
+  .bgc-Prevista {
+    background-color: #dec757;
+    border-bottom: outset 2px;
+    color: white;
+  }
+  .bgc-Concluida {
+    background-color: green;
+    border-bottom: outset 2px;
+    color: white;
+  }
+  .bgc-Andamento {
+    background-color: blue;
+    border-bottom: outset 2px;
+    color: white;
+  }
+  .bgc-Atraso {
+    background-color: red;
+    border-bottom: outset 2px;
+    color: white;
+  }
+
+  div {
+    display: inline-block;
+    margin: 0.5rem;
+
+  }

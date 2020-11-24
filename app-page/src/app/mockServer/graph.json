@@ -1,0 +1,77 @@
+[{
+    "status": "Andamento",
+    "icon": "trending_up",
+    "desc": "Reunião dos Lideres"
+  },
+  {
+    "status": "Prevista",
+    "icon": "access_alarm",
+    "desc": "Ligar para o banco"
+  },
+  {
+    "status": "Prevista",
+    "icon": "access_alarm",
+    "desc": "Pagar Boleto"
+  },
+  {
+    "status": "Prevista",
+    "icon": "access_alarm",
+    "desc": "Aprensentação agricola"
+  },
+  {
+    "status": "Concluida",
+    "icon": "check",
+    "desc": "Email com orçamento"
+  },
+  {
+    "status": "Concluida",
+    "icon": "cancel",
+    "desc": "Email corporativo"
+  },
+  {
+    "status": "Concluida",
+    "icon": "cancel",
+    "desc": "Ligar para chefe"
+  },
+  {
+    "status": "Concluida",
+    "icon": "check",
+    "desc": "Ligar para cliente JJJ"
+  },
+  {
+    "status": "Concluida",
+    "icon": "check",
+    "desc": "Ligar para Cliente ABC"
+  },
+  {
+    "status": "Atraso",
+    "icon": "cancel",
+    "desc": "Ligar para cliente"
+  },
+  {
+    "status": "Atraso",
+    "icon": "cancel",
+    "desc": "Ligar para cliente"
+  },
+  {
+    "status": "Atraso",
+    "icon": "cancel",
+    "desc": "Ligar para cliente PROGD"
+  },
+
+  {
+    "status": "Atraso",
+    "icon": "cancel",
+    "desc": "Ligar para cliente"
+  },
+  {
+    "status": "Atraso",
+    "icon": "cancel",
+    "desc": "Agendamento de reunião"
+  },
+  {
+    "status": "Atraso",
+    "icon": "cancel",
+    "desc": "Ligação para cliente JBLK"
+  }
+]
